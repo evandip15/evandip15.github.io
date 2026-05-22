@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+header{
+    background:black;
+    padding:30px;
+    border-bottom:3px solid red;
+}
+
+h1{
+    margin:0;
+    color:red;
+    font-size:3em;
+}
+
+.galerie{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:40px;
+}
+
+.wallpaper{
+    
+    background:#1b1b1b;
+    padding:15px;
+    border-radius:15px;
+    width:300px;
+    box-shadow:0 0 10px rgba(255,0,0,0.4);
+}
+
+.wallpaper img{
+    width:100%;
+    border-radius:10px;
+}
+
+.btn-download{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 20px;
+    background:red;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-download:hover{
+    background:darkred;
+    transform:scale(1.05);
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:red;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+    margin:15px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:darkred;
+    transform:scale(1.05);
+}
+
+#searchBar {
+    width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
